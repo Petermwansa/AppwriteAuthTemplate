@@ -152,7 +152,6 @@ npx react-native run-android
 ```
 
 
-
 # creating the config variables 
 
 we first create the configuration variables 
