@@ -58,6 +58,7 @@ npm run ios
 yarn ios
 ```
 
+
 If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
 
 This is one way to run your app — you can also build it directly from Android Studio or Xcode.
@@ -95,3 +96,74 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+# PasswordGenerator
+
+
+
+### THE DEVELOPMENT PROCESS 
+
+The app is being developed using the React Native CLI and no expo is used
+
+install the app using: 
+```bash 
+npx @react-native-community/cli init AwesomeApp
+```
+
+# Installation
+Add local.properties for android in the android folder using the file: "local.properties"
+```bash
+sdk.dir=/Users/user/Library/Android/sdk
+```
+
+
+first find the adb on the machine 
+```bash 
+find $HOME/Library/Android -name adb
+```
+
+then you can add the path if not there 
+```bash 
+echo 'export PATH=$PATH:/Users/user/Library/Android/sdk/platform-tools' >> ~/.zshrc
+
+source ~/.zshrc
+```
+
+
+
+then test the adb
+```bash
+adb version
+```
+
+then verify the emulator/device
+```bash
+adb devices
+```
+List of devices attached
+emulator-5554   device
+
+
+# Running the App
+
+first make sure that all the adbs are installed 
+
+```bash
+npx react-native run-android
+```
+
+
+# password-genreator-react-native
+
+We are using the function of a Flatlist that is better as compared to scrollView because it only renders to the screen only the visible items.
+
+# AppwriteAuth# 
+
+
+
+# creating the config variables 
+
+we first create the configuration variables 
+
+then create the appwrite folder and the service.ts file in it
+
+then add the appwrite code forb the signup, login, get user details and the logout# AppwriteAuthTemplate
