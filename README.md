@@ -152,13 +152,6 @@ npx react-native run-android
 ```
 
 
-# password-genreator-react-native
-
-We are using the function of a Flatlist that is better as compared to scrollView because it only renders to the screen only the visible items.
-
-# AppwriteAuth# 
-
-
 
 # creating the config variables 
 
